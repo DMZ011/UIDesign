@@ -1,5 +1,5 @@
 {
-  "name": "tributeapp",
+  "name": "uidesign",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://dmz011.github.io/UIDesign",
@@ -8,6 +8,7 @@
     "@types/node": "10.12.21",
     "@types/react": "16.7.22",
     "@types/react-dom": "16.0.11",
+    "radium": "^0.25.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3",
@@ -29,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/radium": "^0.24.2"
+  }
 }
