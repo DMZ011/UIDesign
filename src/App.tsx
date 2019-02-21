@@ -62,11 +62,7 @@ class App extends Component {
     let playerStyle = {
       backgroundColor: 'red',
       color: 'white',
-      borderBottom: '1px white solid', 
-      ':hover': {
-        backgroundColor: 'blue', 
-        color: 'yellow'
-      }
+      borderBottom: '1px white solid'
     }
 
     return (
@@ -87,4 +83,4 @@ class App extends Component {
   }
 }
 
-export default Radium(App);
+export default App;
